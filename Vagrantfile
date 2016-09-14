@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-composite = ENV['VAGRANT_COMPOSITE'] || "minimal"
+composite = ENV['VAGRANT_COMPOSITE'] || "current"
 
 name = ENV['VAGRANT_NAME'] || "demo-bedcon"
 # Memory settings for "minimal" environment
